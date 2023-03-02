@@ -1,0 +1,27 @@
+входные данные
+28
+VOTEFORTHEGREATALBANIAFORYOU
+CHOOSETHEGREATALBANIANFUTURE
+
+выходные данные
+THEGREATALBANIA
+_______________________
+
+входные данные
+5
+ABCDE
+LBCDE
+
+выходные данные
+BCDE
+_______________________
+
+входные данные
+6
+ABCDEG
+LBCDEB
+
+выходные данные
+BCDE
+_______________________
+

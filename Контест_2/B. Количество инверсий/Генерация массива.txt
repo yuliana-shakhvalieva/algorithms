@@ -1,0 +1,13 @@
+import itertools
+
+def nextRand24(a, b, m):
+    AND = (1 << 32) - 1
+    cur = 0
+    while True:
+        cur = (cur * a + b) & AND
+        yield (cur >> 8) % m
+
+n, m = map(int, input().split())
+a, b = map(int, input().split())
+
+x = list(itertools.islice(nextRand24(a, b, m), n)) # x - данный массив
