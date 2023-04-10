@@ -1,1 +1,1 @@
-![alt text](Задание.jpg)
+![alt text](Задание.png)
